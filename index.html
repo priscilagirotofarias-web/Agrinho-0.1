@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agro Sustentável | Campo Digital</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Cabeçalho semântico -->
+    <header class="cabecalho">
+        <h1>🌱 Campo Digital</h1>
+        <p class="subtitulo">"Agro forte, futuro sustentável: equilíbrio entre produção e meio ambiente"</p>
+    </header>
+
+    <!-- Conteúdo principal usando section -->
+    <main>
+        <section class="cards-container">
+            <!-- Card 1: Tecnologia -->
+            <article class="card">
+                <h2>🚜 Agro Forte</h2>
+                <p>A tecnologia no campo aumenta a produtividade sem precisar derrubar 1 hectare sequer de floresta. O Brasil é referência em agricultura tropical sustentável.</p>
+                <button class="btn-saiba" data-info="tecnologia">Saiba mais</button>
+                <p id="info-tecnologia" class="info-extra hidden">Utilizamos sistemas como ILPF (Integração Lavoura-Pecuária-Floresta) para produzir mais em menos espaço.</p>
+            </article>
+
+            <!-- Card 2: Sustentabilidade -->
+            <article class="card">
+                <h2>🌳 Futuro Sustentável</h2>
+                <p>Preservar nascentes e recuperar pastagens degradadas é o segredo para o agro do futuro. Aqui, produção e natureza andam juntas.</p>
+                <button class="btn-saiba" data-info="sustentabilidade">Saiba mais</button>
+                <p id="info-sustentabilidade" class="info-extra hidden">Cada árvore plantada ajuda a regular o clima e a manter o solo fértil para as próximas colheitas.</p>
+            </article>
+        </section>
+
+        <!-- Seção interativa com JavaScript  -->
+        <section class="interativo">
+            <h2>💚 Você ajuda o futuro sustentável</h2>
+            <div class="contador-container">
+                <p>🌿 Árvores nativas plantadas pelo projeto:</p>
+                <div class="controle">
+                    <button id="btn-diminuir" aria-label="Diminuir">-</button>
+                    <span id="contador-valor">0</span>
+                    <button id="btn-aumentar" aria-label="Aumentar">+</button>
+                </div>
+                <p id="mensagem-motivacional" class="mensagem"></p>
+            </div>
+        </section>
+
+        <!-- Formulário simples  -->
+        <section class="formulario">
+            <h2>📝 Quer saber mais sobre agro sustentável?</h2>
+            <form id="form-contato">
+                <label for="nome">Seu nome:</label>
+                <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+                
+                <label for="email">E-mail para contato:</label>
+                <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com" required>
+                
+                <button type="submit" id="btn-enviar">Enviar interesse</button>
+                <p id="resposta-form" class="feedback"></p>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Projeto desenvolvido para o Concurso Programação Agrinho 2026 | Tema: Equilíbrio entre produção e meio ambiente</p>
+        <p>Imagens: Pexels (Licença gratuita) | Textos autorais</p>
+    </footer>
+
+    <!-- Link para o JavaScript externo  -->
+    <script src="script.js"></script>
+</body>
+</html>
