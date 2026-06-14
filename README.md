@@ -10,7 +10,7 @@
 **Priscila Giroto Farias**  
 1º ano do Técnico em Agropecuária  
 Colégio CEEPA - CENT ES ED PROFIS AG PROF ADILSON REDIVO  
-Educação Digital e Computação: Programação e IA  
+Educação Digital: Computação, Programação e IA  
 
 ---
 
